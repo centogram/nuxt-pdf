@@ -75,6 +75,11 @@ You can see the available options in the example [configuration](#configuration)
 {
   pdf: {
     /*
+    * Name of the nuxt module.  If using nuxt-edge for example set this as nuxt-edge
+    */
+    nuxt: "nuxt",
+  
+    /*
     * Output folder for generated pdf.
     */
     dir: "static",
